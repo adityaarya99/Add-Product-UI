@@ -51,26 +51,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="1.5"
+           >
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="40dp"
-                android:backgroundTint="@color/grey"
+                android:layout_weight=".5"
+                android:paddingLeft="27dp"
+                android:paddingRight="2dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/red"
+                android:background="@drawable/roundcorners"
                 android:drawableLeft="@drawable/ic_male_black_48dp"
                 android:gravity="center_vertical" />
 
             <Button
                 android:layout_width="wrap_content"
+               android:layout_weight=".5"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="40dp"
+                android:background="@drawable/roundcorners"
+                android:paddingLeft="27dp"
+                android:paddingRight="2dp"
+                android:layout_marginRight="20dp"
                 android:backgroundTint="@color/grey"
                 android:drawableLeft="@drawable/ic_female_black_48dp" />
 
             <Button
                 android:layout_width="wrap_content"
+                android:layout_weight=".5"
                 android:layout_height="wrap_content"
+                android:paddingLeft="27dp"
+                android:paddingRight="2dp"
+                android:background="@drawable/roundcorners"
                 android:layout_gravity="right"
                 android:backgroundTint="@color/grey"
                 android:drawableLeft="@drawable/ic_transgender_black_48dp" />
@@ -81,29 +95,17 @@
             android:layout_height="wrap_content"
             android:text="Add Product Title"
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="15dp"
-            android:background="#BFBCBD" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left"
-            android:paddingLeft="20dp"
-            android:paddingTop="5dp"
-            android:text="Title Dummy"
-            android:textColor="@color/black" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="10dp"
-            android:background="#BFBCBD" />
-
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/descriptioncorners"
+           android:text="Title Dummy"
+           android:textSize="12dp"
+           android:padding="10dp"
+           />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -206,9 +208,13 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/edit_text"
             android:layout_width="match_parent"
-            android:layout_height="100dp" />
-
+            android:layout_height="120dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:background="@drawable/descriptioncorners"
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

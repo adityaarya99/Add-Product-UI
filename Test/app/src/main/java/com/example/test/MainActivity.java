@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Spinner spinner4 = (Spinner) findViewById(R.id.spinner4);
         spinner4.setOnItemSelectedListener(this);
         List<String> categories4 = new ArrayList<String>();
-        categories4.add("Condition (required");
+        categories4.add("Condition (required)");
         categories4.add("Business Services");
         categories4.add("Computers");
         categories4.add("Education");
