@@ -220,9 +220,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         dataAdapter4.setDropDownViewResource(R.layout.spinnerbasic);
 
         // attaching data adapter to spinnerbasic.xml
-        spinner4.setAdapter(dataAdapter4);
-    }
-
+        spinner4.setAdapter(dataAdapter4);}
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -235,6 +233,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onNothingSelected(AdapterView<?> arg0) {
         // TODO Auto-generated method stub
     }
+
+
+
     public void addListenerOnButton() {
 
         imageButton = (Button) findViewById(R.id.imageButtonSelector);
