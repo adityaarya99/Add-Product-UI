@@ -58,8 +58,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:background="@drawable/roundcorners"
+
                 android:backgroundTint="@color/red"
                 android:drawableLeft="@drawable/ic_male_black_48dp"
                 android:gravity="center_vertical"
@@ -71,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/roundcorners"
                 android:backgroundTint="@color/grey"
+
                 android:drawableLeft="@drawable/ic_female_black_48dp"
                 android:paddingLeft="20dp"
                 android:paddingRight="2dp" />
@@ -78,9 +79,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
                 android:background="@drawable/roundcorners"
-                android:gravity="right"
+
                 android:backgroundTint="@color/grey"
                 android:drawableLeft="@drawable/ic_transgender_black_48dp"
                 android:paddingLeft="20dp"
