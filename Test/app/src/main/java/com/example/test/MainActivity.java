@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         addListenerOnButton();
 
 
-        imageButtonSelector = (Button) findViewById(R.id.imageButtonSelector);
 
+        imageButtonSelector = (Button) findViewById(R.id.imageButtonSelector);
         btnSelectPhoto = (Button) findViewById(R.id.btnSelectPhoto);
         imageButtonSelector2 = (Button) findViewById(R.id.imageButtonSelector2);
         imageButtonSelector3 = (Button) findViewById(R.id.imageButtonSelector3);
